@@ -1,0 +1,47 @@
+✅ GitHub Contribution Report
+
+Task: Fork, Pull, Commit, and Push Workflow
+Objective:
+To successfully contribute to an open-source project or a shared repository by using GitHub’s collaborative workflow: Fork → Clone → Commit → Push → Pull Request.
+
+🔁 1. Fork the Repository
+
+Action:
+Navigated to the target repository on GitHub and clicked "Fork" to create a personal copy under my own GitHub account.
+Result:
+A new forked repository appeared at:
+https://github.com/my-username/repo-name
+📥 2. Clone the Repository
+
+Command:
+git clone https://github.com/my-username/repo-name.git
+cd repo-name
+Purpose:
+This created a local copy of the forked repo to work on changes.
+🔧 3. Make Changes Locally
+
+Edited source files (e.g., fixed a bug, added a feature, or improved documentation).
+Verified changes with:
+git status
+git diff
+💾 4. Commit the Changes
+
+Command:
+git add .
+git commit -m "Fix: corrected typo in README and updated usage example"
+Result:
+A clean, descriptive commit was created with all intended changes.
+📤 5. Push to Forked Repository
+
+Command:
+git push origin main
+Note:
+If working on a branch:
+git push origin my-feature-branch
+📬 6. Create a Pull Request (PR)
+
+Navigated to the original repo on GitHub.
+Clicked "Compare & Pull Request".
+Wrote a clear title and description of the changes.
+Submitted the PR for review.
+
